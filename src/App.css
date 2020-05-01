@@ -1,0 +1,156 @@
+.App {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+.main {
+  width: 50vw;
+  min-height: 100vh;
+  background-image: url(./assets/wallpaper.jpg);
+  /* background: cornsilk; */
+  background-size: 400px 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main > h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(0, 0, 168);
+  text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.363);
+  border-bottom: rgb(0, 0, 168) solid 1.5px;
+  margin: 5px 0px 0px 0px;
+  padding: 1%;
+}
+
+.main > h3 {
+  color: rgb(0, 0, 168);
+  border-radius: 3px;
+  padding: 0px 5px 0px 2px;
+  font-family: "Courier New", Courier, monospace;
+  margin: 15px;
+}
+
+#submitButton {
+  color: rgb(0, 0, 168);
+  border: #e861ad solid 1px;
+  border-radius: 3px;
+  padding: 5px;
+  margin-top: 0px;
+  background: none;
+}
+
+#submitButton:hover {
+  background-color: rgb(37, 37, 82);
+  color: white;
+}
+
+#nameInput, #numberInput {
+  width: 130px;
+  height: 23px;
+  margin: 0px 5px 0px 0px;
+  border-radius: 2px;
+  border-style: none;
+  border: #e861ad solid 1px;
+  background: none;
+  color: rgb(0, 0, 168);
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+input:hover {
+  box-shadow: 0px 0px 2px rgb(0, 0, 0);
+}
+
+.formBody {
+  min-width: 62.5%;
+  max-height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0px;
+  border-bottom: black solid 1px;
+  border-top: black solid 1px;
+  padding: 10px 0px;
+  background: rgb(238, 238, 238);
+}
+
+#contactItem {
+  list-style: none;
+  font-family: "Times New Roman", Times, serif;
+  margin: 5px;
+  padding: 5px 15px;
+  width: 93%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid black thin;
+}
+#contactItem > span {
+  width: 100px;
+  color: rgb(0, 0, 168);
+}
+
+#contactItem:hover {
+  box-shadow: 0px 5px 4px rgba(71, 71, 71, 0.397);
+}
+
+.contactList {
+  width: 62%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#deleteButton {
+  background: none;
+  border-style: none;
+  border: rgb(168, 167, 167) solid 1px;
+  border-radius: 2px;
+}
+
+#deleteButton:hover {
+  transform: scale(1.1);
+  background: #e861ad;
+  border: rgba(94, 93, 93, 0.336) solid 1px;
+  color: white;
+}
+
+#filterInput {
+  width: 30vw;
+  height: 5vh;
+  margin: 0px 5px 0px 0px;
+  border-radius: 2px;
+  border-style: none;
+  border: #e861ad solid 1px;
+  background: none;
+  color: rgb(0, 0, 168);
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .main{
+    width:100vw
+  }
+  #filterInput{
+    width:50vw;
+    height:3vh
+  }
+
+  #contactItem{
+    width:136%
+  }
+}

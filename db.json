@@ -1,0 +1,39 @@
+{
+  "contacts": [
+    {
+      "id": 0,
+      "name": "Chiranjibi",
+      "number": "0451405566"
+    },
+    {
+      "id": 1,
+      "name": "Devendra",
+      "number": "04576554433"
+    },
+    {
+      "id": 2,
+      "name": "Nishan",
+      "number": "000000"
+    },
+    {
+      "name": "Sharada",
+      "number": "9854567898",
+      "id": 3
+    },
+    {
+      "name": "Hari Narayan",
+      "number": "2365766342",
+      "id": 4
+    },
+    {
+      "name": "Shyam Prasad",
+      "number": "532783495285",
+      "id": 5
+    },
+    {
+      "name": "Surendra",
+      "number": "000000",
+      "id": 7
+    }
+  ]
+}
