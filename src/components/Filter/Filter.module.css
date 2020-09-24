@@ -1,0 +1,15 @@
+.filterBox {
+  display: flex;
+  justify-content: center;
+  padding: 1em 0em;
+}
+
+.input {
+  width: 70%;
+  height: 30px;
+  border-radius: 2px;
+  border: none;
+  box-shadow: 0px 0px 2px black;
+  padding: 5px 10px;
+  color: rgb(117, 0, 153);
+}

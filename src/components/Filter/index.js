@@ -1,13 +1,11 @@
 import React from "react";
+import styles from "./Filter.module.css";
 
-const Filter = ({ filter, setFilter }) => {
-  const handleChange = (event) => {
-    setFilter(event.target.value);
-  };
-
+const Filter = ({ handleChange }) => {
   return (
-    <div className="filterArea">
+    <div className={styles.filterBox}>
       <input
+        className={styles.input}
         id="filterInput"
         placeholder="Type and search contact"
         type="text"

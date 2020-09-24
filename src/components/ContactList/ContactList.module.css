@@ -1,0 +1,9 @@
+.table {
+  padding: 0.5em 3em;
+  background-color: rgba(140, 0, 153, 0.486);
+  border-collapse: collapse;
+}
+.head {
+  text-align: left;
+  background-color: rgba(231, 231, 231, 0.767);
+}

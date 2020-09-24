@@ -1,3 +1,4 @@
+/*
 .App {
   margin: 0px;
   padding: 0px;
@@ -12,8 +13,8 @@
 .main {
   width: 50vw;
   min-height: 100vh;
-  background-image: url(./assets/wallpaper.jpg);
-  /* background: cornsilk; */
+  background-image: url(../../assets/wallpaper.jpg);
+  /* background: cornsilk; 
   background-size: 400px 1000px;
   background-repeat: no-repeat;
   background-position: center;
@@ -154,3 +155,4 @@ input:hover {
     width: 136%;
   }
 }
+*/

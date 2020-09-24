@@ -2,16 +2,22 @@ import React from "react";
 const Info = ({ info }) => {
   const infoStyle = () => {
     const style1 = {
-      border: "none",
+      color: "#1D1D1D",
+      textAlign: "center",
+      margin: 0,
     };
     const style2 = {
-      border: "red solid 1.5px",
+      color: "#FE3434",
+      textAlign: "center",
+      margin: 0,
     };
     const style3 = {
-      border: "green solid 1.5px",
+      color: "#099806",
+      textAlign: "center",
+      margin: 0,
     };
 
-    if (info === "") {
+    if (info === "Welcome to Contact-List App") {
       return style1;
     } else if (info.includes("is deleted")) {
       return style2;
