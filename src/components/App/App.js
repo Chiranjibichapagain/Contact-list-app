@@ -10,7 +10,6 @@ import styles from "./App.module.css";
 
 function App() {
   const [info, setinfo] = useState("Welcome to Contact-List App");
-  const [filter, setFilter] = useState("");
   const [name, setName] = useState("");
   const [number, setNumber] = useState("");
   const [display, setDisplay] = useState([]);
